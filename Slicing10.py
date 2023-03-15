@@ -9,4 +9,5 @@ def main(s,n,k):
         str: answer
     """
     return s[n:-k:]
+
 print(main("codeschool",2,5))
