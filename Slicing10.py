@@ -8,13 +8,6 @@ def main(s,n,k):
     Returns:
         str: answer
     """
-    a=0
-    if str(s)==s:
-        a+=1
-        if int(n)==n:
-            a+=1
-            if int(k)==k: 
-                a+=1
-                return s[n:-k:]
+    return s[n:-k:]
 
 print(main("codeschool",2,5))
